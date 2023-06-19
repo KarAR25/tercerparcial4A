@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        </head>
+    
+        <body>
+          <div style="margin: 24px;">
+            <nav class="navbar navbar-inverse navbar-stick-static-top">
+              <div class="container">
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="index.html">Inicio</a>
+                  </li>
+                  <li class="active">
+                    <a href="Menu.html">Menu</a>
+                  </li>
+    
+                  <li>
+                    <a href="Pedido.html">Pedido</a>
+                  </li>
+                  <li>
+                    <a href="">Resultado</a>
+                  </li>
+                  <li>
+                    <a href="apimovies.html">Buscador de Peliculas</a>
+                  </li>
+                  <li>
+                    <a href="calculadora.html">Calculadora</a>
+                  </li>
+                  <li>
+                    <a href="calculadorafisica.html">Calculadora de Fisica</a>
+                  </li>
+                  <li class="">
+                    <a href="Cuestionario.html">Cuestionario</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          
+    <form method="post" action="./pedidorealizado.php">
+       
+       <style type="text/css">
+
+            table, th, td{
+                border: 3px solid black;
+                border-collapse: separate;
+            }
+        
+            th, td {
+                padding: 5px;
+            }
+
+        </style>
+
+        <center><h1>Menu</h1></center>
+        <table style="width: 70%;" align="center">
+            <tr>
+               <td rowspan="2" align="center" valign="middle"><img src="imagenes/boneless1.jpg" width="auto" height="auto" border="0"></td> 
+               <td class="centro"> Boneless </td>
+               <td rowspan="2" align="center" valign="middle"><img src="imagenes/jochos.jpg" width="auto" height="auto" border="0"></td>
+               <td class="centro"> Jochos </td>
+            </tr>
+            <tr>
+               <td class="centro">-$99-</td>
+               <td class="centro">-$50-</td> 
+            </tr>
+            <tr>
+               <td rowspan="2" align="center" valign="middle"><img src="imagenes/nuggets1.jpg" width="auto" height="auto" border="0"></td> 
+               <td class="centro"> Nuggets </td>
+               <td rowspan="2" align="center" valign="middle"><img src="imagenes/tacos.jpg" width="auto" height="auto" border="0"></td>
+               <td class="centro"> Tacos </td>
+            </tr>
+            <tr>
+               <td class="centro">-$79-</td>
+               <td class="centro">-$45-</td>
+            </tr>
+            <tr>
+               <td rowspan="2" align="center" valign="middle"><img src="imagenes/pizza.jpg" width="auto" height="auto" border="0"></td> 
+               <td class="centro"> Pizza </td>
+               <td rowspan="2" align="center" valign="middle"><img src="imagenes/burritos.jpg" width="auto" height="auto" border="0"></td>
+               <td class="centro"> Burritos </td>
+            </tr>
+            <tr>
+               <td class="centro">-$79-</td>
+               <td class="centro">-$39-</td>
+            </tr>
+        </table>
+        <br><br><br>
+        
+        <center>
+  <footer>
+    <div class="copyrigth">
+      <p>&copy;<span id="year">Derechos reservados.</span></p>
+
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <h2><a href="perfil.html">Contactame</a></h2>
+      <p>Si estas interesado en contactarme, puedes hacerlo a travez de cualquiera de las siguientes redes sociales.</p>
+      <p>Podras contactarme en cualquiera de estas apps:</p>
+      <p>Agregando solo un poco mas de informacion para que el texto se vea mucho mas ya que no se que mas agregarle...</p>
+      <div class="contact-links">
+        <a href="https://www.facebook.com/Sol_VC" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/miperfil" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/miperfil" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.discord.com/miperfil" target="_blank"><i class="fab fa-discord"></i></a>
+        <a href="https://www.twitch.com/miperfil" target="_blank"><i class="fab fa-twitch"></i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <style>
+  footer{
+background-color:rgb(0, 0, 0);
+color:rgb(16, 207, 134);
+padding: 30px 0;
+}
+.container{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 20px;
+
+}
+.footer-content{
+display: flex;
+flex-wrap: wrap;
+}
+.footer-section{
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+}
+.about{
+text-align: center;
+}
+.about h2{
+margin-bottom: 20px;
+}
+.about p{
+font-size: 18px;
+line-height: 1.5;
+margin-bottom: 20px;
+}
+.contact-links{
+display: flex;
+justify-content: center;
+}
+.contact-links a{
+display: inline-block;
+color: #fff;
+font-size: 24px;
+margin: 0 10px;
+transition: all 0.3s ease;
+}
+.contact-links a:hover{
+transform: translateY(-5px);
+}
+</style>
+
+</center>
+</body>
+</html>
